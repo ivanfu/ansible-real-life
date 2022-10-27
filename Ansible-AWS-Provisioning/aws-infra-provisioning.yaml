@@ -9,7 +9,7 @@
     - vars/aws-ec2-new.yml
     - vars/aws-common-vars.yml
   vars:
-    aws_boto_profile: default
+    aws_boto_profile: ansible
   tasks:
     - name: Fetch VPC ID
       include_role:
